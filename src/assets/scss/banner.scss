@@ -1,0 +1,25 @@
+.banner-content-wrapper{
+    h1{
+        span{
+            color: #fff;
+            display: block;
+        }
+    }
+}
+
+.banner-section{
+    background: #333;
+    height: 70vh;
+    h1{
+        font-size: 2.0em;
+    }
+}
+
+.banner-img{
+    text-align: center;
+    img{
+        width: 330px;
+        max-width: 100%;
+        transform: translateY(20px);
+    }
+}

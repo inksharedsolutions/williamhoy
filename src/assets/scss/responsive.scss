@@ -1,0 +1,62 @@
+
+/*
+* Responsive Media Queries
+*/
+
+
+
+@media screen and ( min-width : 1200px){
+    body{
+        font-size: 18px;
+    }
+}
+
+
+@media screen and ( max-width : 990px){
+    body{
+        font-size: 14px;    
+    }
+
+    .banner-content-wrapper{
+        h1{
+            font-size: 1.6em !important;
+        }
+    }
+}
+
+
+@media screen and (max-width: 620px){
+
+    #author-container{
+        height: 100vh;
+        grid-template-columns:auto;
+    }
+
+
+    .two-grid-column{
+        
+        grid-template-columns: auto !important;
+        width: 100%;
+        display: block !important;
+
+        ul{
+            padding: 0;
+            li{
+                a{
+                    padding: 0 1em;
+                }
+            }
+        }
+    }
+
+    .container-gt{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    .book-wraps{
+        img{
+            width:200px;
+        }
+    }
+}
