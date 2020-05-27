@@ -38,7 +38,7 @@
 
     .middle-params{
         width: 70%;
-        margin: 0 auto;
+        margin: 0 auto !important;
     }
 
     #wrapper-two-books{
@@ -63,7 +63,7 @@
 
     .middle-params{
         width: 70%;
-        margin: 0 auto;
+        margin: 0 auto !important;
     }
 
     li{
@@ -96,6 +96,7 @@
     }
 
     .span-tagline{
+        display: block;
         &:before{
             content: '';
             width: 43px;
