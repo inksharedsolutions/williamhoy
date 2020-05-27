@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'gatsby'
-import Book1 from '../images/book_1_front.jpg'
-import Book2 from '../images/book_2_front.jpg'
+import Book1 from '../images/book_front_1.png'
+import Book2 from '../images/book_front_2.png'
 
 const UpperMain =()=>{
     return  (
@@ -19,6 +19,8 @@ const UpperMain =()=>{
                     <div className="grid-two-columns" id="wrapper-two-books">
                         <div className="book-wraps">
                             <img src={Book1}/>
+                            <h5>GOTCH'EN</h5>
+                            <span>Johnny Taggett</span>
                             <button>
                                 <Link>Read More</Link>
                             </button>
@@ -26,6 +28,8 @@ const UpperMain =()=>{
 
                         <div className="book-wraps">
                             <img src={Book2}/>
+                            <h5>THE</h5>
+                            <span>Gifted One</span>
                             <button>
                                 <Link>Read More</Link>
                             </button>

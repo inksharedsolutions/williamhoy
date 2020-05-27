@@ -9,11 +9,9 @@ const MidMain = ()=>{
         <>
             <section className="mid-main">
                 <div className="container-gt separator-line">
-                    <h1>Featured On</h1>
+                    <h1>Featured</h1>
                     <p className="middle-params">
-                        Lorem Ipsum is simply dummy 
-                        text ofthe printing and 
-                        typesetting industry.
+                        William Hoy has been featured numerous time on...
                     </p>
 
                     <div className="grid-template-four-col" id="logos-col">

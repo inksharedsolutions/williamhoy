@@ -1,5 +1,20 @@
 .non-active-nav{
-    display: none;
+    ul{
+        display: flex;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                margin: 0 14px;
+                font-size: 1em;
+            }
+        }
+    }
+
+    .list-label{
+        display: none;
+    }
+    
 }
 
 .navigation{
@@ -16,4 +31,14 @@
             font-size: 20px;
         }
     }
+}
+
+.hamburger-ul{
+    display: none;
+}
+
+[aria-current="page"]{
+    border-bottom: 4px solid #ffca00;
+    padding: 4px;
+    color: #ffca00;
 }

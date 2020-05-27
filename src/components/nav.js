@@ -7,10 +7,10 @@ const Nav = (props) =>{
 	const [toggled, setToggled] = useState(false);
 
 	const pages = [
-		 'home',
-		 'about-the-author', 
-		 'about-the-book', 
-		 'contact'
+		 'Home',
+		 'About-the-Author', 
+		 'About-the-Book', 
+		 'Contact'
 	]	
 
 	let Listed = pages.map((e) =>{
@@ -22,7 +22,7 @@ const Nav = (props) =>{
 			<li>
 				<Link 
 					to={filterUrl}>
-					{e.replace(/[-/]/g," ").trim().toLowerCase() }
+					{e.replace(/[-/]/g," ").trim()}
 				</Link>	
 			</li>
 		)
@@ -36,7 +36,7 @@ const Nav = (props) =>{
         <> 
 			<nav className="navigation"
 				style={props.pathExt === '/' || props.pathExt === ''  ? {
-						borderBottom: '1px solid rgb(41, 41, 41)'
+						borderBottom: '1px solid rgb(241, 229, 184)'
 					}:{
 						borderBottom: '1px solid rgb(255, 255, 255)'
 						}
@@ -56,7 +56,9 @@ const Nav = (props) =>{
 				</h1>
 
 				<h1></h1>
+
 				<ul
+					className="hamburger-ul"
 					onClick={e => clickEvent(e)}
 					ref={refSpan}>
 					<span className="hamburger-span"></span>
@@ -65,17 +67,14 @@ const Nav = (props) =>{
 
 				<section className={toggled ? 'active-nav': 'non-active-nav'}>
 					<ul>
-						
-						<p className="list-label">
-							Navigations.
-						</p>
-
+					<p class="list-label">Navigations.</p>
 						{
 							Listed
 						}
 
 					</ul>
 				</section>
+	
 			</nav>
         </>			
     )

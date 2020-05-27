@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'gatsby'
-import AuthorImg from '../../static/img/author_img.jpg'
+import AuthorImg from '../../static/img/author_img.png'
 
 const LowerMain = ()=>{
     return(
@@ -14,8 +14,9 @@ const LowerMain = ()=>{
 
                         <div className="wrapper-auth-content">
                             <p>
-                                Lorem Ipsum is simply dummy text 
-                                of the printing and typesetting industry.
+                                I, William D. Hoy was born in San Diego, California and raised in Chula Vista a suburb of San Diego, 
+                                living on a farm until I entered high school. Graduated from Chula Vista Senior High School,
+                                years later I got my Bachelor’s Degree from Columbia College.
                             </p>
 
                             <h1>William Hoy</h1>

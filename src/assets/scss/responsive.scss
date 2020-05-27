@@ -22,6 +22,40 @@
             font-size: 1.6em !important;
         }
     }
+
+    .non-active-nav{
+        display: none;
+    }
+
+    .hamburger-ul{
+        display: block !important;
+    }
+
+    .active-nav{
+        height: 100vh;
+        position: fixed;
+        z-index: 999;
+        width: 50%;
+        top: 0;
+        background: #060606;
+        right: 0;
+        
+        ul{
+            text-align: left;
+            transform: translateY(10em);
+            margin: 0 3em;
+            display: flex;
+            flex-direction: column;
+            height: 60vh;
+            justify-content: center;
+
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    
+    }
 }
 
 

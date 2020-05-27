@@ -1,18 +1,33 @@
 .book-wraps{
 
     text-align: center;
+    background: #efefef;
+    padding: 10% 0;
+
     img{
-        width: 200px;
+        width: 300px;
     }
     button{
         display: block;
         margin: 2% auto;
     }
+
+    h5{
+        margin: 0;
+        font-size: 2em;
+    }
+
+    span{
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        display: block;
+        line-height: 2;
+    }
 }
 
 .upper-main{
     
-    padding: 8% 0;
+    padding: 5% 0;
     text-align: center;
 
     h1{
@@ -28,6 +43,7 @@
 
     #wrapper-two-books{
         margin: 5% 0;
+        gap: 13px;
 
         &:after{
             content:'';
@@ -63,11 +79,14 @@
 }
 
 .wrapper-auth-content{
+    
     img{
         width: 250px;
         border-radius: 50%;
         max-width: 100%;
+        border: 1.2em solid #f1ebd5;
     }
+
     button{
         display: block;
     }
@@ -96,7 +115,7 @@
 .newsletter-section{
     background: #dcdcdc;    
     text-align: center;
-    padding: 7% 0;
+    padding: 4% 0;
     h1{
         font-size: 3em;
     }
@@ -106,12 +125,19 @@
     input[name="email"]{
         width: 60%;
         padding: 2%;
+        border: 1px solid #ffca00;
+        &:active{
+            border: 1px solid #ffca00;
+        }
     }
     input[name="submit"]{
         background: #fdcb02;
         border: none;
         color: #ffff;
         cursor: pointer;
+    }
+    button{
+        margin: 0;
     }
 }
 
@@ -176,4 +202,15 @@
     p{
         font-size: 14px;
     }
+}
+
+
+
+.hamburger-span{
+    width: 25px;
+    display: block;
+    height: 3px;
+    background: #0c0c0c;
+    margin: 3px 0;
+    cursor: pointer; 
 }
