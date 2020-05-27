@@ -2,9 +2,19 @@ import React from 'react'
 import Layout from '../components/layout'
 import Nav from '../components/nav'
 import Banner from '../components/non-front-banner'
-
+import BookInfo from '../components/book-info/book-info'
+import { DiscussionEmbed } from "disqus-react"
 
 const ATB = (props)=>{
+
+
+    const slug =(props.location.href);
+	const disqusConfig = {
+	  shortname: 'gardinernoble',
+	  config: { identifier:  12, slug}
+    }
+    
+
 	
 	return (
 		<>
@@ -13,52 +23,69 @@ const ATB = (props)=>{
 		 		<Banner/>
 
 
-
-		 		<div className="container">
-				    <section className="body-author-contents columns">
-
-                        <div className="heading-quote">
-                            <div className="author-image-container">
-                                <img src={``} />
-                            </div>
-                        </div>
+                <main className="wrapperMain">
+                    <div 
+                        className="container"
+                        id="book-containers" >
 
 
-                        <article className="article-section" id="author">
+                            <BookInfo
+                                data={{
+                                    title:`Susies Submissions`,
+                                    spanTitle: '',
+                                    imgSrc: '',
+                                    id:'susies_submisision',
+                                    content:
+                                    `Susie’s Submissions is an anthology of three stories about attractive middle-aged women who have been abandoned by their
+                                    husbands. “The Price,” “The Office,” and “The Hot Tub” depict three women who are all named Susie,
+                                    and all three are physically and emotionally similar.
+                                    The author, Gardiner Noble, hopes this book will help men and
+                                    husbands to be less critical of women and never take them for granted.`,
 
-                            <div className="heading-quote">
-                                <h4>
-                                    The joy and comfort a human being gets from studying any one of the sacred books is
-                                    ... a confirmation of the existence of a supreme being.
-                                </h4>
+                                    ebooks:{
+                                        stratton : 'https://www.stratton-press.com/books/susies-submissions/',
+                                        barnes: 'https://www.barnesandnoble.com/w/susies-submissions-gardiner-noble/1134052029?ean=9781643457567',
+                                        amazon :'https://www.amazon.com/Susies-Submissions-Gardiner-Noble-ebook/dp/B07Z46HBBT/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1571252796&sr=1-1', 
+                                    },
+                                    paperback:{
+                                        amazon:'https://www.amazon.com/Susies-Submissions-Gardiner-Noble/dp/1643456318/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1571252796&sr=1-1',
+                                        barnes:'https://www.barnesandnoble.com/w/susies-submissions-gardiner-noble/1134052029?ean=9781643456317',
+                                        booksamillion:'https://www.booksamillion.com/p/Susies-Submissions/Gardiner-Noble/9781643456539?id=7714171848832',
+                                    }
+                                }}
+                            />
+
+                            <BookInfo  
+                                data={{
+                                    title:`Beliefs`,
+                                    spanTitle: '',
+                                    imgSrc: '',
+                                    id:'beliefs',
+                                    content:
+                                    `The book suggests alternate interpretations of various scientific and religious dogmas.`,
+
+                                    ebooks:{
+                                        stratton : 'https://www.stratton-press.com/books/beliefs/',
+                                        barnes: 'https://www.barnesandnoble.com/w/beliefs-gardiner-noble/1134052027?ean=9781643457536',
+                                        amazon :'https://www.amazon.com/Beliefs-Gardiner-Noble-ebook/dp/B07Z44C55F/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1571251847&sr=8-1', 
+                                    },
+                                    paperback:{
+                                        amazon:'https://www.amazon.com/Beliefs-Gardiner-Noble/dp/1643455338/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1571251847&sr=8-1',
+                                        barnes:'https://www.barnesandnoble.com/w/beliefs-gardiner-noble/1134052027?ean=9781643455334',
+                                        booksamillion:'https://www.booksamillion.com/p/Beliefs/Gardiner-Noble/9781643455334?id=7714171848832',
+                                    }
+                                }}
+                            />
+
+   
+                    
                                 
-                                <span className="ata-span-fx">author quote</span>
+                            <div className="commentSection" >
+                                <DiscussionEmbed {...disqusConfig} />
                             </div>
+                    </div>	
+                </main>
 
-
-                            <p>
-                            Gardiner Noble is a retired electrical engineer who spent forty years in the automobile. 
-                            He is the inventor of the coil-on-plug ignition system, which is used in most cars manufactured around the world.
-                            </p>
-
-                            <p>
-                                He has written several books: One, Silken Thomas 
-                                Fitzgerald (Henry the Eighth's Irish Thorn), Beliefs, and The Gleeful Banker.
-                                He is in the process of writing a serious book that explains why the human body ages.
-                            </p>
-
-                            <p>
-                                <span className="author-name">
-                                    <span className="author-span-ft">Author |  Writer </span>
-                                    Gardiner Noble
-                                </span>
-                            </p>
-
-                        </article>
-              
-
-                    </section>
-                </div>
 
 		 	</Layout>
 		</>
