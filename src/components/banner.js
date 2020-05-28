@@ -7,7 +7,7 @@ const Banner = ()=>{
         <>
             <section className="banner-section">
                 <div className="container-gt">
-                    <div className="grid-two-columns">
+                    <div className="grid-two-columns" id="banner-layout-responsive">
                         
                         <div className="left-col">
                             <div className="banner-content-wrapper">

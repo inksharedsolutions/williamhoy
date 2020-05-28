@@ -147,40 +147,6 @@ $prm-font-size : 12px;
     }
 }
 
-
-.booklinkBlocks{
-    background: none !important;
-    color: #000 !important;
-    box-shadow: none !important;
-    line-height: normal !important;
-    height: auto; 
-    margin-top: 20px;
-    text-align: right;
-
-    span{
-        margin-right: 13px;
-        display: block;
-        margin-bottom: 16px;
-        font-style: italic;
-        font-size: 12px;
-    }
-
-    li{
-        list-style: none;
-        display: inline-block;
-        padding: 0 4px;
-    }
-     
-    a{
-        text-decoration: none;
-        background: #f8a732;
-        padding: 4px 15px;
-        color: #fff;
-        font-size: 13px;
-    }
-
-}
-
 /*Contact*/
 .formInputs{
     margin-top: 11px !important;
@@ -225,7 +191,7 @@ $prm-font-size : 12px;
 .abtiaryButton{
     padding: 13px 74px;
     border: none;
-    background: #f15454f0;
+    background: #e8c02b;
     color: #fff;
     text-transform: uppercase;
     margin-top: 39px;
@@ -295,9 +261,9 @@ $prm-font-size : 12px;
      
     a{
         text-decoration: none;
-        background: #b29e46;
+        background: #0e1b23;
         padding: 4px 15px;
-        color: #fff;
+        color: #fff !important;
         font-size: 13px;
     }
 }
@@ -329,12 +295,6 @@ $prm-font-size : 12px;
     padding: 0 46px;
 }
 
-
-@media only screen and (max-width: 950px) {
-    .booklinkBlocks{
-        text-align: center;
-    }
-}
 
 /*privacy-policy-content*/
 
@@ -399,7 +359,7 @@ $prm-font-size : 12px;
        font-size: 3rem;
        font-weight:700;
        color: #000;
-
+       line-height: 1;
     }
     span{
         font-weight: bold;
@@ -418,3 +378,28 @@ $prm-font-size : 12px;
 .book-container-ft{
     margin-bottom: 4em !important;
 }
+
+
+.info-section-address{
+    text-align: center;
+    margin: 39px 0;
+    border-top: 1px solid #eee;
+    span{
+    	display: block;
+	    font-weight: 100 !important;
+	    margin: 30px 0px;
+	    font-size: 13px;
+	    h5{
+	    	text-align: center;
+		    margin: 21px 0 !important;
+		    letter-spacing: 5px;
+		    text-transform: uppercase;
+	    }
+    }
+}
+
+.logo-ft{
+    a{
+        color:#fff !important; 
+    }
+} 

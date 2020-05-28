@@ -19,7 +19,8 @@ const Footer = ()=>{
                     <nav>
                         <ul>
                             <li>
-                                <a href="">
+                                <a href="https://www.facebook.com/SPPI.Official"
+                                   target="_blank">
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faFacebook} />
@@ -27,7 +28,9 @@ const Footer = ()=>{
                             </li>
 
                             <li>
-                                <a href="">
+                                <a 
+                                    target="_blank"
+                                    href="https://twitter.com/strattonpress/">
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faTwitter} />
@@ -35,14 +38,18 @@ const Footer = ()=>{
                             </li>
 
                             <li>
-                                <a href="">
+                                <a  
+                                    target="_blank"
+                                    href="https://www.instagram.com/strattonpress/">
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faInstagram} />
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a 
+                                    target="_blank"
+                                    href="https://www.goodreads.com/author/show/4698771.William_D_Hoy">
                                     <FontAwesomeIcon 
                                         className='font-awesome'
                                         icon={faGoodreads} />
