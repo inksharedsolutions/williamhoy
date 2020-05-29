@@ -16,7 +16,7 @@
 
     #privacy-policy-content, 
     #terms-and-conditions-content{
-        margin: 7em 3em !important;
+        margin: 4em 1em !important;
     }
 
     .close-mark{
@@ -73,6 +73,10 @@
 }
 
 @media screen and (max-width: 620px){
+
+    .banner-section{
+        height: 90vh !important;
+    }
 
     .web-banner{
         h1{
@@ -133,7 +137,7 @@
     }
 
     #author-container{
-        height: 100vh;
+        height: 100%;
         grid-template-columns:auto;
     }
 
@@ -149,7 +153,7 @@
     }
 
     #banner-layout-responsive{
-        height: 70vh;
+        height: 90vh !important;
     }
 
     .newsletter-section{
@@ -199,4 +203,15 @@
             width:200px;
         }
     }
+}
+
+@media screen and (max-width: 450px){
+
+    .form-newsletter-wrapper{
+        button{
+            display: block;
+            margin: 1em auto;
+        }
+    }
+
 }
