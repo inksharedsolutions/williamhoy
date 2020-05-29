@@ -72,8 +72,13 @@
     }
 }
 
-
 @media screen and (max-width: 620px){
+
+    body{
+        p{
+            font-size: 1em !important;
+        }
+    }
 
     .bookImgContainer {
         img{

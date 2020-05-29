@@ -1,5 +1,6 @@
 import React,{useRef, useState} from 'react'
 import {Link} from 'gatsby';
+import  Logo from '../../static/logo/logo.png'
 
 const Nav = (props) =>{
 
@@ -33,7 +34,7 @@ const Nav = (props) =>{
 	}
 			
     return(		
-        <> 
+        <>
 			<nav className="navigation"
 				style={props.pathExt === '/' || props.pathExt === ''  ? {
 						borderBottom: '1px solid rgb(241, 229, 184)'
@@ -52,7 +53,9 @@ const Nav = (props) =>{
 							color: '#000'
 						}}
 						to="/"
-					>William Hoy</Link>
+					>
+						<img className="logo-img" src={Logo}/>
+					</Link>
 				</h1>
 
 				<h1></h1>
