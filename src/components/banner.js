@@ -21,7 +21,7 @@ const Banner = ()=>{
                                     detectives or cowboys and Indians. 
                                 </p>
                                 <button>
-                                    <Link to="">
+                                    <Link to="/about-the-author">
                                         Read More
                                     </Link>
                                 </button>
