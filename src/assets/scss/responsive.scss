@@ -74,9 +74,35 @@
 
 @media screen and (max-width: 620px){
 
+    .web-banner{
+        h1{
+            font-size: 2.5em !important;
+        }
+    }
+
+    .wrapperMain{
+        margin:  1em 0 !important;
+    }
+
+    .close-mark{
+        right: 20px;
+    }
+
+    .body-author-contents{
+        padding: 16px !important;
+        margin: 0;
+    }
+    
+
     body{
         p{
             font-size: 1em !important;
+        }
+    }
+
+    .active-nav {
+        li{
+            font-size: 1.3em;
         }
     }
 
