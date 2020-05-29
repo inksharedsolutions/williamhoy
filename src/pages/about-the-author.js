@@ -10,21 +10,19 @@ const ATB = (props)=>{
 		<>
 		 	<Layout>
 		 		<Nav pathExt={props.path}/>
-		 		<Banner/>
+                 <Banner 
+                 spanFirst={`About The`}
+                 contextHeading={`Author`}/>
 
 
 
 		 		<div className="container">
 				    <section className="body-author-contents columns">
 
-                        <div className="heading-quote">
+                        <div className="heading-quote column">
                             <div className="author-image-container">
                                 <img src={AuthorImg} />
                             </div>
-                        </div>
-
-
-                        <article className="article-section" id="author">
 
                             <div className="heading-quote">
                                 <h4>
@@ -34,8 +32,10 @@ const ATB = (props)=>{
                                 
                                 <span className="ata-span-fx">author quote</span>
                             </div>
+                        </div>
 
 
+                        <article className="article-section column" id="author">
                             <p>
                                 I, William D. Hoy was born in San Diego, California and raised in Chula Vista a 
                                 suburb of San Diego, living on a farm until I entered high school.
@@ -57,7 +57,7 @@ const ATB = (props)=>{
                             <p>
                                 <span className="author-name">
                                     <span className="author-span-ft">Author |  Writer </span>
-                                    Gardiner Noble
+                                    William Hoy
                                 </span>
                             </p>
 

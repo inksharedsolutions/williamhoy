@@ -11,8 +11,9 @@ const ATB = (props)=>{
 
 
     const slug =(props.location.href);
+    
 	const disqusConfig = {
-	  shortname: 'gardinernoble',
+	  shortname: 'william-hoy',
 	  config: { identifier:  12, slug}
     }
     
@@ -22,7 +23,11 @@ const ATB = (props)=>{
 		<>
 		 	<Layout>
 		 		<Nav pathExt={props.path}/>
-		 		<Banner/>
+		 		<Banner
+                    spanFirst={`About The`}
+                    contextHeading={`Book`}
+                 
+                 />
 
                 <main className="wrapperMain">
                     <div 

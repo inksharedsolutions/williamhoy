@@ -36,7 +36,10 @@ const Contact = (props)=>{
             <Layout>
 
 		 		<Nav pathExt={props.path}/>
-		 		<Banner/>
+		 		<Banner 
+                    spanFirst={`Get In`}
+                    contextHeading={`Touch`}
+                 />
 
                 <main className="flexMainContainer">
                     <div className="flex-container-fx">

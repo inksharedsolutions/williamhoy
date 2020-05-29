@@ -28,9 +28,6 @@ p,a,qoute,span,blockquote{
     color: #4c4c4cee !important;
 }
 
-
-
-
 p{
     line-height: 1.7;
     margin: 1.2em 0 !important;
@@ -45,6 +42,8 @@ button{
         color: #fff !important;
         text-decoration: none;
         cursor: pointer;
+        text-transform: uppercase;
+        font-size: 15px;
     }
 }
 

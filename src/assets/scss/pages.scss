@@ -21,7 +21,7 @@ $prm-font-size : 12px;
 
 
     span{
-        letter-spacing: 1.1em;
+        letter-spacing: 0.67em;
         text-transform: uppercase;
         line-height: 2;
         color: #989393;
@@ -31,16 +31,18 @@ $prm-font-size : 12px;
         font-size: 4em;
         font-weight: 900;
         text-transform: uppercase;
-        color: #fff;
+        color: #a78d32;
     }
 }
 
 .wrapper-ds{
     display: flex;
     flex-direction: column;
-    // height: 300px;
     justify-content: center;
     align-items: center;
+    height: 400px;
+    position: relative;
+    z-index: 2;
 }
 
 .columns{
@@ -77,8 +79,10 @@ $prm-font-size : 12px;
 }
 
 .author-image-container{
+
+    text-align: center;
     img{
-        width: 770px;
+        width: 200px;
         border: 12px solid #e0e0db57;
     }
 }       
@@ -95,11 +99,11 @@ $prm-font-size : 12px;
 
 .author-name{
     
-    // position: absolute;
     font-size: 26px;
     margin: 2em 16px;
     display: block;
     text-align: right;
+    font-weight: bold;
     
     .author-span-ft{
         display: block;
@@ -310,7 +314,7 @@ $prm-font-size : 12px;
             content: '';
             width: 101px;
             height: 2px;
-            background-color: #ff7a7a;
+            background-color: #a78d32;
             display: block;
             margin: 11px 0;
         }

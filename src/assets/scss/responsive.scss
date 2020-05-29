@@ -14,6 +14,15 @@
 
 @media screen and ( max-width : 990px){
 
+    #privacy-policy-content, 
+    #terms-and-conditions-content{
+        margin: 7em 3em !important;
+    }
+
+    .close-mark{
+        display: block !important;
+    }
+
     .columns{
         margin: 0 !important;
     }
@@ -40,7 +49,7 @@
         height: 100vh;
         position: fixed;
         z-index: 999;
-        width: 50%;
+        width: 100%;
         top: 0;
         background: #060606;
         right: 0;
@@ -66,9 +75,41 @@
 
 @media screen and (max-width: 620px){
 
+    .bookImgContainer {
+        img{
+            width: 100% !important;
+        }
+    }
+
+    .heading-quote{
+        padding: 0 10px !important;
+    }
+
+    .booklinkBlocks {
+        li{
+
+            background: #0e1b23;
+            margin-bottom: 6px;
+            display: block !important;
+            margin-bottom: 0.6em;
+            padding: 10px 4px !important;
+            text-align: center;
+
+            a{
+                padding: 0 !important;
+            }
+        }
+    }
+
     #author-container{
         height: 100vh;
         grid-template-columns:auto;
+    }
+
+    .upper-main{
+        #wrapper-two-books{
+            margin: 5% 4%;
+        }
     }
 
     .grid-two-columns{
@@ -78,6 +119,14 @@
 
     #banner-layout-responsive{
         height: 70vh;
+    }
+
+    .newsletter-section{
+        padding: 12% 0;
+    }
+
+    .author-section{
+        margin: 3.2em 0;
     }
 
 

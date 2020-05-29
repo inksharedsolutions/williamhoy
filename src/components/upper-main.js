@@ -22,7 +22,10 @@ const UpperMain =()=>{
                             <h5>GOTCH'EN</h5>
                             <span>Johnny Taggett</span>
                             <button>
-                                <Link>Read More</Link>
+                                <Link 
+                                    to={'/about-the-book/#johnny_taggett'}>
+                                        Read More
+                                </Link>
                             </button>
                         </div>
 
@@ -31,7 +34,10 @@ const UpperMain =()=>{
                             <h5>THE</h5>
                             <span>Gifted One</span>
                             <button>
-                                <Link>Read More</Link>
+                                <Link 
+                                    to={'/about-the-book/#the_gifted_one'}>
+                                    Read More
+                                </Link>
                             </button>
                         </div>
                     </div>
