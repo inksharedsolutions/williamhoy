@@ -19,7 +19,7 @@ const Footer = ()=>{
                     <nav>
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/SPPI.Official"
+                                <a href="https://www.facebook.com/William-D-Hoy-330094504273633"
                                    target="_blank">
                                     <FontAwesomeIcon
                                         className='font-awesome'

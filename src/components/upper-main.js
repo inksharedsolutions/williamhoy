@@ -11,9 +11,9 @@ const UpperMain =()=>{
                     <h1>Books</h1>
                     
                     <p className="middle-params">
-                        Lorem Ipsum is simply dummy 
-                        text ofthe printing and 
-                        typesetting industry.
+                       I wrote and published Gotch'em: Johnny Taggett,
+                       a tuff guy detective mystery, and The Gifted One,
+                       an adventure Sci-Fi novel.
                     </p>
 
                     <div className="grid-two-columns" id="wrapper-two-books">

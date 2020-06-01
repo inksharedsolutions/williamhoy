@@ -26,8 +26,7 @@ const ATB = (props)=>{
 
                             <div className="heading-quote">
                                 <h4>
-                                    The joy and comfort a human being gets from studying any one of the sacred books is
-                                    ... a confirmation of the existence of a supreme being.
+                                   Just like always, the only way out is through
                                 </h4>
                                 
                                 <span className="ata-span-fx">author quote</span>
