@@ -3,7 +3,6 @@ import React from 'react'
 
 const Newsletter = ()=>{
 
-
     const onSubmitForm = (e)=>{
 
     }
@@ -12,7 +11,6 @@ const Newsletter = ()=>{
         <>
             <section className="newsletter-section">
                 <div className="container-gt">
-                    
                     <h1>
                         Newsletter
                     </h1>
@@ -20,11 +18,10 @@ const Newsletter = ()=>{
                     <p>
                         Stay up to date with the latest from me
                     </p>
-                    
                     <form 
                         onSubmit={(e)=>onSubmitForm(e)}
                         method="POST"
-                        >
+                        >   
 
                         <div className="form-newsletter-wrapper">
                             <input name="email" type="email" placeholder="Enter email" />
