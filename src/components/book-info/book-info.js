@@ -8,7 +8,7 @@ import Viewer from '@phuocng/react-pdf-viewer';
 import ScreenPlay from '../../../static/pdf/screen_play.pdf'
 // Import the CSS
 import '@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css';
-
+import { FundViewOutlined  } from '@ant-design/icons';
 
 const BookInfo = (props)=>{
  
@@ -74,7 +74,8 @@ const BookInfo = (props)=>{
                                     <span>ScreenPlay :</span>
 
                                     <Button  onClick={()=>showModal()}>
-                                        Screenplay Viewer
+                                        <span>Screenplay Viewer</span>
+                                        <FundViewOutlined />
                                     </Button>
 
                                     <Modal

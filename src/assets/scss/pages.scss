@@ -490,15 +490,25 @@ $prm-font-size : 12px;
 .ant-modal{
     width: 650px !important;
 }
+.ant-btn{
+    background: #ffda25 !important;
+    color: #fff !important;
+    border: none !important;
+    span{
+        margin:0;
+    }
+}
+
+/*Slick*/
 
 .ant-modal-footer{
     display: none;
 }
 
 .slick-next{
-    right: 105px;
+    right: 105px !important;
 }
 
 .slick-prev{
-    left: 107px;
+    left: 107px !important;
 }
