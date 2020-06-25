@@ -50,7 +50,7 @@ $prm-font-size : 12px;
 }
 
 .body-author-contents{
-    margin: 4em 0 !important;
+    margin: 0 0 !important;
     // background: #eee;
     padding: 44px;
 }
@@ -407,3 +407,98 @@ $prm-font-size : 12px;
         color:#fff !important; 
     }
 } 
+
+
+/*Slick*/
+
+
+.author-img{
+    background: #fff;
+    padding: 6%;
+    box-shadow: -1px 1px 28px 4px #f1f1f1;
+    border-radius: 50px;
+    margin: 10px 0;
+}
+
+.slick-slide{
+    width: 448px;
+    margin: 0 21px;
+
+
+    img{
+        display: block;
+        width: 359px;
+        margin: 0 auto;
+        padding: 13px;
+    }
+}
+
+
+.slick-next:before, .slick-prev:before{
+    color: #fee380!important;
+    position: relative;
+    z-index: 10!important;
+    font-size: 40px!important;  
+}
+
+.slick-prev, .slick-next{
+    top: 19%;
+}
+
+#slider-container{
+    display: none;
+}
+
+
+/*Photo Grid*/
+.photo-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+    margin-bottom: 7em;
+    box-shadow: 2px 3px 14px 0px rgba(255, 236, 236, 0.5);
+    background: #f7f7f7;
+    padding: 2em;
+    justify-content: center;
+}
+  
+/* Create four equal columns that sits next to each other */
+.photo-column {
+    flex: 25%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+
+.photo-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+
+    box-shadow: 2px 3px 14px 0px rgba(162, 162, 162, 0.5);
+    background: #fff;
+    padding: 1em;
+}
+
+.book-container-ft{
+    border-bottom: 1px solid #eeee;
+    padding: 2% 0;
+}
+
+
+/*Modal Customization*/
+.ant-modal{
+    width: 650px !important;
+}
+
+.ant-modal-footer{
+    display: none;
+}
+
+.slick-next{
+    right: 105px;
+}
+
+.slick-prev{
+    left: 107px;
+}

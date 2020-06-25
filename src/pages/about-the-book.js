@@ -58,7 +58,8 @@ const ATB = (props)=>{
                                         amazon:'https://www.amazon.com/Gifted-One-William-D-Hoy/dp/1643453769/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=',
                                         barnes:'https://www.barnesandnoble.com/w/the-gifted-one-william-d-hoy/1135498639?ean=9781643453767',
                                         booksamillion:'https://www.booksamillion.com/p/Gifted-One/William-D-Hoy/9781643453767?id=7714171848832',
-                                    }
+                                    },
+                                    screenPlay: false
                                 }}
                             />
 
@@ -96,7 +97,8 @@ const ATB = (props)=>{
                                         amazon:'https://www.amazon.com/Gotchem-Taggett-William-D-Hoy/dp/1643452851/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=',
                                         barnes:'https://www.barnesandnoble.com/w/beliefs-gardiner-noble/1134052027?ean=9781643455334',
                                         booksamillion:'https://www.booksamillion.com/p/Gotchem/William-D-Hoy/9781643452852?id=7714171848832',
-                                    }
+                                    },
+                                    screenPlay: true
                                 }}
                             />
 
