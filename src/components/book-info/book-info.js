@@ -70,6 +70,19 @@ const BookInfo = (props)=>{
                         
                         {       
                             props.data.screenPlay && (
+
+                                <nav className="booklinkBlocks">
+                                    <span>IMDB :</span>
+                                    <li>
+                                        <a 
+                                            rel="noopener 
+                                            noreferrer" 
+                                            target="_blank" 
+                                            href="https://www.imdb.com/name/nm6517171/">
+                                            Amazon</a>
+                                    </li>
+                                </nav>
+
                                 <nav className="booklinkBlocks screenPlay-viewer">
                                     <span>ScreenPlay :</span>
 
