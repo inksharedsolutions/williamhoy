@@ -79,7 +79,7 @@ const BookInfo = (props)=>{
                                     </Button>
 
                                     <Modal
-                                        title="Screen PlayViewer"
+                                        title="See the Screenplay adaptation of  Gotch'em here!"
                                         visible={visible}
                                         onOk={()=>handleOk()}
                                         onCancel={()=>handleCancel()}
