@@ -19,8 +19,10 @@ const Footer = ()=>{
                     <nav>
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/William-D-Hoy-330094504273633"
-                                   target="_blank">
+                                <a 
+                                    rel="noreferrer"
+                                    target="_blank"
+                                    href="https://www.facebook.com/William-D-Hoy-330094504273633">
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faFacebook} />
@@ -29,6 +31,7 @@ const Footer = ()=>{
 
                             <li>
                                 <a 
+                                    rel="noreferrer"
                                     target="_blank"
                                     href="https://twitter.com/strattonpress/">
                                     <FontAwesomeIcon
@@ -39,6 +42,7 @@ const Footer = ()=>{
 
                             <li>
                                 <a  
+                                    rel="noreferrer"
                                     target="_blank"
                                     href="https://www.instagram.com/strattonpress/">
                                     <FontAwesomeIcon
@@ -47,7 +51,8 @@ const Footer = ()=>{
                                 </a>
                             </li>
                             <li>
-                                <a 
+                                <a  
+                                    rel="noreferrer"
                                     target="_blank"
                                     href="https://www.goodreads.com/author/show/4698771.William_D_Hoy">
                                     <FontAwesomeIcon 
