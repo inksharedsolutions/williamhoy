@@ -54,9 +54,11 @@ const Nav = (props) =>{
 						}}
 						to="/"
 					>
-						<img className="logo-img" src={Logo} alt="logo"/>
+						<img className="logo-img" src={Logo}/>
 					</Link>
 				</h1>
+
+				<h1></h1>
 
 				<ul
 					className="hamburger-ul"

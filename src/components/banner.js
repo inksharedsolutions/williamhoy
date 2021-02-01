@@ -29,7 +29,7 @@ const Banner = ()=>{
                         </div>
 
                         <div className="right-col banner-img">
-                            <img src={ImgBanner} alt="hat and binoculars"/>
+                            <img src={ImgBanner}/>
                         </div>
                     </div>
                 </div>
