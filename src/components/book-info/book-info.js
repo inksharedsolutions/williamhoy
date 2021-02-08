@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import { Modal, Button } from 'antd';
 import 'antd/dist/antd.css';
 import { Worker } from '@phuocng/react-pdf-viewer';
@@ -70,7 +70,7 @@ const BookInfo = (props)=>{
                         
                         {       
                             props.data.screenPlay && (
-
+                                <>
                                 <nav className="booklinkBlocks">
                                     <span>IMDB :</span>
                                     <li>
@@ -99,7 +99,7 @@ const BookInfo = (props)=>{
                                         >
 
                                         <Worker 
-                                            workerUrl="https://unpkg.com/pdfjs-dist@2.4.456/build/pdf.worker.min.js">
+                                            workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js">
                                             <div
                                                 style={{
                                                     height: '750px',
@@ -112,6 +112,7 @@ const BookInfo = (props)=>{
                                         </Worker>
                                     </Modal>
                                 </nav>
+                                </>
                             )
                         }
         
